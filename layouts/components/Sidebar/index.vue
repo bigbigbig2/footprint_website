@@ -13,7 +13,7 @@
                 <template slot="title">{{item.meta.title}}</template>
                 <el-menu-item :index="child.name" :key="child.name">{{child.meta.title}}</el-menu-item>
               </el-submenu>
-              <el-menu-item v-else :index="child.name" :keys="child.name">{{ child.meta.title }}</el-menu-item>
+              <el-menu-item v-else :index="child.name" :key="child.name">{{ child.meta.title }}</el-menu-item>
             </template>
           </template>
         </el-submenu>

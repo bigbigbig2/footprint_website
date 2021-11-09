@@ -1,11 +1,13 @@
 <template>
   <el-header style="text-align: right; font-size: 12px">
-    <!-- Logo 子组件 -->
+    <!-- Logo组件 -->
     <Logo />
+    <!-- 下拉菜单 -->
     <div class="right-menu">
       <el-dropdown class="avatar-container right-menu-item hover-effect" trigger="click">
+        <!-- 用户信息 -->
         <div class="avatar-wrapper">
-          <img src="/images/avatar.png" class="user-avatar" />
+          <img src="/images/avatar.jpg" class="user-avatar" />
           <i class="el-icon-caret-bottom"></i>
         </div>
         <el-dropdown-menu slot="dropdown">

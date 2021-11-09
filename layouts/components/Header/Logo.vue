@@ -3,11 +3,16 @@
     <transition name="sogoFade">
       <router-link class="logo-link" to="/">
         <img src="images/footprint.png" class="logo" />
-        <h1 class="title">FootPrint App</h1>
+        <h1 class="title">FootPrint</h1>
       </router-link>
     </transition>
   </div>
 </template>
+<script>
+export default {
+    name:"Logo"
+}
+</script>
 <style lang="scss" scoped>
 .sogoFade-enter-active {
   transition: opacity 1.5s;
@@ -24,15 +29,15 @@
   width: 260px;
   text-align: left;
   float: left;
-  .logo-link {
+  & .logo-link {
     height: 100%;
     width: 100%;
-    .logo {
+    & .logo {
       height: 36px;
       vertical-align: middle;
       margin-right: 12px;
     }
-    .title {
+    & .title {
       display: inline-block;
       margin: 0;
       color: #1496db;
