@@ -4,7 +4,6 @@
   <el-container>
     <Sidebar :data="menuData" />
     <el-main>
-      <h4>重构布局页面</h4>
       <nuxt />
     </el-main> 
   </el-container>

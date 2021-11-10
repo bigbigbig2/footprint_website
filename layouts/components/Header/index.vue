@@ -1,7 +1,5 @@
 <template>
-  <el-header style="text-align: right; font-size: 12px">
-    <!-- Logo组件 -->
-    <Logo />
+  <el-header style=" text-align: right; font-size: 10px">
     <!-- 下拉菜单 -->
     <div class="right-menu">
       <el-dropdown class="avatar-container right-menu-item hover-effect" trigger="click">
@@ -23,10 +21,9 @@
   </el-header>
 </template>
 <script>
-import Logo from './Logo'
 export default {
   name: 'Header',
-  components: { Logo },
+
   props: {},
   data() {
     return {}
@@ -42,23 +39,20 @@ export default {
 </script>
 <style lang="scss" scoped>
 .el-header {
-  background: #1b2034;
+  background:#FFA500;
   color: #fff;
   line-height: 60px;
   .right-menu {
     float: right;
     height: 100%;
-    line-height: 50px;
-    &:focus {
-      outline: none;
-    }
+    line-height: 30px;
     .right-menu-item {
       display: inline-block;
       padding: 5px 8px;
       height: 100%;
       font-size: 18px;
       color: #5a5e66;
-      vertical-align: text-bottom;
+      vertical-align: text-bottom; //属性设置元素的垂直对齐方式
       &.hover-effect {
         cursor: pointer;
         &:hover {

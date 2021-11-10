@@ -1,6 +1,6 @@
 const MenuData = [
   {
-    path: "foot-point",
+    path: "footpoint",
     name: "foot-point",
     meta: { title: "足迹点管理", icon: "location" }
   },
