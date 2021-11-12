@@ -39,7 +39,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .el-header {
-  background:#FFA500;
+  background:	#87CEFA;
   color: #fff;
   line-height: 60px;
   .right-menu {

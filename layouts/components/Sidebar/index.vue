@@ -3,7 +3,7 @@
     <el-aside width="200px">
       <el-menu>
         <template v-for="item in data">
-          <!-- 有子菜单，嵌套菜单 -->
+          <!-- 判断是否有子菜单，有则嵌套菜单 -->
           <el-submenu v-if="hasChildren(item)" :index="item.name" :key="item.name">
             <template slot="title">
               <i :class="getIconCls(item.meta.icon)"></i>
